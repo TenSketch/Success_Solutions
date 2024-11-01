@@ -1,0 +1,118 @@
+// Styles for Hero Section
+$primary-color: #007bff;
+$dark-color: #1c2a48;
+$highlight-color: #00ffc6;
+$white: #fff;
+$background-light: #f9f9f9;
+$border-active: #00aaff;
+
+
+.hero-section {
+  background: hsla(216, 57%, 17%, 90%) url(images/hero.jpg) no-repeat center center / cover;
+  height: 100vh;
+  background-blend-mode: overlay;
+  position: relative;
+  overflow: hidden;
+  color: $white;
+  .company-name {
+    font-size: 2rem;
+    font-weight: 700;
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+  .main-text {
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    animation: slideIn 2.5s ease-in-out forwards;
+
+    .highlight {
+      color: $highlight-color;
+    }
+  }
+
+  .job-button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 2rem;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    animation: fadeIn 3s ease-in-out forwards;
+
+    &:hover {
+      background-color: #ffffff;
+      color: $primary-color;
+    }
+  }
+}
+
+// Animations
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  0% { opacity: 0; transform: translateX(-100px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+// Styles for Services Section
+.services-section {
+  background-color: $background-light;
+  color: $dark-color;
+
+  .text-highlight {
+    color: $highlight-color;
+    font-weight: bold;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+  }
+
+  .service-box {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    &.active {
+      border: 2px solid $border-active;
+    }
+
+    .icon {
+      font-size: 2rem;
+      color: $highlight-color;
+    }
+
+    .service-title {
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin: 0.75rem 0;
+    }
+
+    .service-description {
+      font-size: 0.95rem;
+      color: $dark-color;
+      opacity: 0.8;
+    }
+  }
+}
