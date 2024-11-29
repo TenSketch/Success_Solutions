@@ -1,0 +1,79 @@
+@use 'variables' as *;
+
+.text-gold{
+  color: $secondary-color;
+}
+.px-custom{
+  padding-inline: 2rem;
+  @media(min-width:768px){
+    padding-inline: 3rem;
+  }
+}
+.highlight {
+  color: $highlight-color;
+  &--dark{
+    color: $highlight-color--dark;
+  }
+}
+.font-weight-bold{
+  font-weight: bold;
+}
+// Button Utilities
+.btn {
+  display: inline-block;
+  padding: 0.75em 1.5em; // 12px 24px
+  font-size: 1rem; // 16px
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  border: none;
+
+  &--primary {
+    background-color: $primary-color;
+    color: $white;
+
+    &:hover {
+      background-color: $highlight-color;
+      color: $neutral-dark;
+    }
+  }
+
+  &--secondary {
+    background-color: transparent;
+    color: $secondary-color;
+    border: 2px solid $secondary-color; // 2px
+
+    &:hover {
+      background-color: $secondary-color;
+      color: $neutral-dark;
+    }
+  }
+
+  &--gold {
+    background-color: $secondary-color;
+    color: $dark-color;
+  }
+
+  &--small {
+    padding: 0.5em 1em; // 8px 16px
+    font-size: 0.875rem; // 14px
+  }
+
+  &--large {
+    padding: 1em 2em; // 16px 32px
+    font-size: 1.125rem; // 18px
+  }
+
+  &--block {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  &--icon i {
+    margin-left: 0.5rem; // Space between text and icon
+    font-size: 0.875em; // Slightly smaller icon size relative to text
+  }
+}

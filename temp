@@ -1,0 +1,181 @@
+<a href="https://www.freepik.com/free-video/happy-business-team-celebrating-success-modern-office_2872522#fromView=search&page=1&position=30&uuid=c431a977-19a8-46f6-b515-24775071e6f5">Video by freepik</a>
+
+Hero Section:
+
+Content:
+
+Tagline: "A Company is as great as the people who work for it"<!-- <p class="subtitle">Success is not an accident, magic, or a miracle. It's a blend of well-thought-out processes,
+        hard work, focused energies, and resources with a passion to make it happen</p> -->
+      <!-- <em>A Company is as great as the people who work for it</em> -->
+      <!-- <h2 class="main-text"><span class="highlight">TALENT?</span> MEET OPPORTUNITY.</h2> -->
+      <!-- <a href="#" class="btn btn-primary job-button">Job Openings</a> -->
+Subtext: "Your people are your SUCCESS. We craft innovative solutions for your people's success."
+Call-to-Action (CTA) Buttons:
+"Explore Our Services"
+"Contact Us"
+
+
+<!-- <p class="subtitle">Success is not an accident, magic, or a miracle. It's a blend of well-thought-out processes,
+        hard work, focused energies, and resources with a passion to make it happen</p> -->
+      <!-- <em>A Company is as great as the people who work for it</em> -->
+      <!-- <h2 class="main-text"><span class="highlight">TALENT?</span> MEET OPPORTUNITY.</h2> -->
+      <!-- <a href="#" class="btn btn-primary job-button">Job Openings</a> -->
+
+
+      <section class="hero text-center p-5">
+        <div class="container">
+            <h1>"A Company is as great as the people who work for it"</h1>
+            <p class="lead">Your people ..... is ..... your SUCCESS</p>
+            <p>We craft solutions for your people success</p>
+        </div>
+      </section>
+      
+      <!-- Quotes Section -->
+      <section class="quotes bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <blockquote>"It doesn't make sense to hire smart people and tell them what to do; we hire smart people so they can tell us what to do" - <cite>Steve Jobs</cite></blockquote>
+                </div>
+                <div class="col-md-6">
+                    <blockquote>"Great companies make meaning. A company has a name, but it's people give it meaning" - <cite>Richard Pascale</cite></blockquote>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      
+      <!-- Services Section -->
+      <section class="services py-5">
+        <div class="container text-center">
+            <h2>Our Expatriate Hiring Methodologies</h2>
+            <p>Bridging & Bringing people to you is what our expertise</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5>Turnkey Hiring</h5>
+                    <p>End-to-end hiring process for specific projects.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Succession Hiring</h5>
+                    <p>Preparing your company for seamless transitions.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Leadership Hiring</h5>
+                    <p>Bringing in the right leaders to drive vision and growth.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      <section class="expatriate-hiring-section py-5">
+        <div class="container">
+          
+      
+          <div class="focus-areas">
+            <div class="image-container">
+              <!-- <img src="images/brainstorming.jpg" alt="Brainstorming Session" class="section-image"> -->
+            </div>
+            <div class="content-section">
+      
+              <!-- Left Column -->
+              <div class="left-column">
+                <h4>The real issues organizations should focus on:</h4>
+                <div class="custom-list">
+                  <p><i class="fas fa-check-circle"></i> Resolving problems</p>
+                  <p><i class="fas fa-check-circle"></i> Being creative</p>
+                  <p><i class="fas fa-check-circle"></i> Thinking outside the box</p>
+                  <p><i class="fas fa-check-circle"></i> Foreseeing current and future challenges</p>
+                  <p><i class="fas fa-check-circle"></i> Seeing the broad spectrum of possibilities</p>
+                </div>
+      
+      
+                <p>Also, understanding and adapting to:</p>
+                <div class="custom-list">
+      
+                  <p><i class="fas fa-check-circle"></i> Life changes</p>
+                  <p><i class="fas fa-check-circle"></i> Market shifts</p>
+                  <p><i class="fas fa-check-circle"></i> Politics</p>
+                  <p><i class="fas fa-check-circle"></i> New resources and economics</p>
+                  <p><i class="fas fa-check-circle"></i> Social needs</p>
+                </div>
+              </div>
+      
+              <!-- Right Column -->
+              <div class="right-column">
+                <img src="images/hom.jpg" alt="Brainstorming Session" class="section-image">
+              </div>
+      
+            </div>
+            <p class="closing-note">... to serve your company or organization.</p>
+          </div>
+      </section>
+      
+        <!-- <section class="closing-section">
+          <div class="closing">
+            <h4>People need you, but they don’t know how to get you.</h4>
+            <p>Bridging and bringing people to you is our expertise. Our time-tested hiring solutions and methodologies make
+              resource management challenges in your business growth curve easier to handle.</p>
+            <div class="image-container">
+              <img src="images/executive-discussion.jpg" alt="Executive Discussion" class="section-image">
+            </div>
+          </div>
+          </div>
+        </section> -->
+      
+        <!--  ABOUT -->
+        <h1 class="ab">ABOUT US</h1>
+      
+        <section class="section-container">
+          
+          <div class="left-column">
+            <h1 class="company-name">Welcome to Your One-Stop Expatriate Hiring Consulting Solution Provider</h1>
+            <p class="subtitle">Success Solutions is a renowned name for expatriate hiring among global clients.</p>
+            <em class="emphasis-text">We are your trusted partner for seamless hiring solutions worldwide.</em>
+            <h2 class="main-text"><span class="highlight">TALENT?</span> MEET OPPORTUNITY.</h2>
+            <!-- <a href="#" class="btn btn-primary job-button eye-button">Explore Job Openings</a> -->
+      
+            <div>
+              <button class="btn btn-primary job-button eye-button"><i class="fa-solid fa-eyes"></i></button>
+      
+            </div>
+          </div>
+         
+      
+      
+          <div class="right-column">
+            <img src="images/aa.png" alt="Brainstorming Session" class="section-image" style="height: 500px;">
+          </div>
+      
+        </section>
+        
+        <!-- Footer -->
+      <footer class="footer text-center py-3 bg-dark text-light">
+        <div class="container">
+            <p>&copy; 2024 Success Solutions. All rights reserved.</p>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+      <a href="https://www.freepik.com/free-video/business-strategy-communication-success-words-neon-lights-appear-background-with-interconnected-dots_170074#fromView=search&page=1&position=41&uuid=5f1683bb-7d67-4fa5-b5a8-44e4a0e24ea7">Video by freepik</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

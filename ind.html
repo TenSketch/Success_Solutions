@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Slide Animation</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+      background-color: #f4f4f4;
+    }
+
+    .text-container {
+      position: relative;
+      font-size: 2rem;
+      font-weight: bold;
+      white-space: nowrap;
+      /* overflow: hidden; */
+    }
+
+    .text {
+      position: absolute;
+      animation: slide-in-out 3s ease-in-out forwards;
+    }
+
+    @keyframes slide-in-out {
+      0% {
+        transform: translateX(-1000%);
+      }
+
+      50% {
+        transform: translateX(0);
+      }
+
+      
+      100% {
+        transform: translateX(1000%);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="text-container">
+    <div class="text">Hello, welcome to the site!</div>
+  </div>
+
+  <script>
+    // Optional JavaScript to reset animation if required
+    const textElement = document.querySelector('.text');
+
+    textElement.addEventListener('animationend', () => {
+      console.log('Animation complete');
+    });
+  </script>
+</body>
+
+</html>
